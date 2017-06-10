@@ -2,7 +2,9 @@
  *= require_self
  */
 
-@import 'normalize.scss';
-@import "global.scss";
-@import "docs.scss";
-@import "welcome.scss";
+@import 'normalize.css';
+@import 'global.scss';
+@import 'notes.scss';
+@import 'welcome.scss';
+@import "bootstrap-sprockets";
+@import "bootstrap";

@@ -1,18 +1,32 @@
 #banner
-  .banner_content
-    %h1 FileCabinet
-    %p Your Life's Work. Always organized.
-    %button= link_to "Enter", new_user_registration_path
-
+	.banner_content
+		%h1 FileCabinet
+		%p Your life's Work!
+		.button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "I keep all our important documents with FileCabinet."
+		%p.name - President Obama
 #callouts
-  .callout_inner
-    .wrapper
-      .callout
-        %h2 Organize
-        %p Filler Text
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Journal
+				Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+			.callout
+				%h2 Notes
+				Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+			.callout
+				%h2 Epic
+				Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
 
 #bottom_cta
-  .wrapper
-    %h2 Go Ahead!
-    %br
-    %button= link_to "Join Now", new_user_registration_path
+	.wrapper
+		%h2 Store All Your Notes!
+		%p Be Different, Join the Elite!
+		.button= link_to "Start Here!!!", new_user_registration_path
+
+%footer
+%p &copy; Tashby
