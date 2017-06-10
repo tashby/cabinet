@@ -1,1 +1,18 @@
-%h1 Voila! This is the placeholder!
+#banner
+  .banner_content
+    %h1 FileCabinet
+    %p Your Life's Work. Always organized.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Filler Text
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
